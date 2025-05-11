@@ -1,12 +1,35 @@
 # Cell Marker
+This tool performs the following tasks:
 
+    Prompts the user to import:
+        one or more source Excel files
+        one target Excel file
 
+    Asks for the row number of the header and the name of the key column
+    (Some cells in the source files are marked with a character such as 'V' or 'X'.
+    This marker may appear in multiple columns of the same row.)
+
+    Prompts the user to specify the marker character.
 
 
 ## Features
-- 
-
+- Easy installation
+- User friendly interactions
+- Freeware
+- No source code included
+- Licensed under EULA (see LICENSE.txt)
 
 
 ## License
 This software is freeware and distributed under a custom [End User License Agreement](LICENSE.txt). Source code is not shared!
+
+
+## Installer Download
+
+To install the tool, download the latest `.exe` installer from the [Releases](https://github.com/payam-avarwand/Cell-Marker/releases) section.
+
+> **Note**: This installer is created using [Inno Setup Compiler] and is **self-signed**. Windows SmartScreen may warn you — this is expected for unsigned softwares.
+
+
+
+_Payam Avarwand	,	12.05.2025_
