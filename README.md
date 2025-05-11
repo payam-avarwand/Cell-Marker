@@ -1,15 +1,14 @@
 # Cell Marker
 This tool performs the following tasks:
 
-    Prompts the user to import:
-        one or more source Excel files
-        one target Excel file
+1- Prompts the user to import:
+  - one or more source Excel files
+  - one target Excel file
+2- Asks for the row number of the header and the name of the key column
+(Some cells in the source files are marked with a character such as 'V' or 'X'.
+This marker may appear in multiple columns of the same row.)
 
-    Asks for the row number of the header and the name of the key column
-    (Some cells in the source files are marked with a character such as 'V' or 'X'.
-    This marker may appear in multiple columns of the same row.)
-
-    Prompts the user to specify the marker character.
+3- Prompts the user to specify the marker character.
 
 
 ## Features

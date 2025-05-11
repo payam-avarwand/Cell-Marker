@@ -1,7 +1,6 @@
 END USER LICENSE AGREEMENT (EULA)
-for Cell Marker software
 
-This software, named Cell Marker, is provided by Avarwand ("Company") free of charge for personal and commercial use.
+This software, named Cell Marker, is provided by Avarwand, free of charge for personal and commercial use.
 
 By installing or using Cell Marker, you agree to the following terms:
 
@@ -26,3 +25,7 @@ By installing or using Cell Marker, you agree to the following terms:
 
     TERMINATION
     This license will terminate automatically if the user fails to comply with any of the terms outlined in this agreement. Upon termination, the user must cease all use of Cell Marker and delete all copies.
+
+---
+
+© 2025 Payam Avarwand. All rights reserved.
