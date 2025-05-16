@@ -1,8 +1,9 @@
 #define MyAppName "Cell Marker"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.1"
+#define MyAppFullName MyAppName + " " + MyAppVersion
 #define MyAppPublisher "payam-avarwand"
 #define MyAppURL "https://github.com/payam-avarwand"
-#define MyAppExeName "em.exe"
+#define MyAppExeName "Cell Marker-1.1-Portable.exe"
 #define MyAppIcon "img.ico"
 #define MyVbsLauncher "Cell Marker_Launcher.vbs"
 
@@ -17,7 +18,7 @@ AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\Avarwand\{#MyAppName}
-DefaultGroupName={#MyAppName}
+DefaultGroupName={#MyAppFullName}
 UninstallDisplayIcon={app}\icons\{#MyAppIcon}
 OutputDir=C:\temp
 OutputBaseFilename=CellMarker-{#MyAppVersion}-Setup
@@ -39,8 +40,9 @@ Source: "C:\temp\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\temp\{#MyAppIcon}"; DestDir: "{app}\icons"; Flags: ignoreversion
 
 [Icons]
-Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyVbsLauncher}"; IconFilename: "{app}\icons\{#MyAppIcon}"
-Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyVbsLauncher}"; Tasks: desktopicon; IconFilename: "{app}\icons\{#MyAppIcon}"
+Name: "{group}\{#MyAppFullName}"; Filename: "{app}\{#MyVbsLauncher}"; IconFilename: "{app}\icons\{#MyAppIcon}"
+Name: "{autodesktop}\{#MyAppFullName}"; Filename: "{app}\{#MyVbsLauncher}"; Tasks: desktopicon; IconFilename: "{app}\icons\{#MyAppIcon}"
+
 
 [Run]
 Filename: "{app}\{#MyVbsLauncher}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: shellexec postinstall skipifsilent
