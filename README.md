@@ -11,6 +11,13 @@ This marker may appear in multiple columns of the same row.)
 
 3- Prompts the user to specify the marker character.
 
+4- A copy of the target file is created in the same path to which all changes are made.
+The original target file remains untouched.
+
+## Hints
+- After installation, it may take a little while to start the software for the first time, but this should not be a problem.
+- If the content of a single header cell consists of different colors, the process cannot recognize and transfer them accordingly.
+Otherwise, the entire content of each header may have a different color than the others.
 
 ## Features
 - Easy installation
