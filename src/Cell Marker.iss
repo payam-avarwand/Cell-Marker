@@ -1,12 +1,12 @@
 #define MyAppName "Cell Marker"
 #define MyAppVersion "1.2"
-#define MyAppPublisher "payam-avarwand"
-#define MyAppURL "https://github.com/payam-avarwand/"
+#define MyAppPublisher "Avarwand"
+#define MyAppURL "https://github.com/payam-avarwand/Cell-Marker/releases/tag/Cell-Marker"
 #define MyAppExeName "Cell Marker 1.2 Portable.exe"
-#define MyAppIcon "D:\Cell Marker\Cell Marker.ico"
+#define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Word-Books\Code\Cell Marker\Cell Marker.ico"
 #define MyVbsLauncher "Cell Marker_Launcher.vbs"
 #define MyAppIconName "Cell Marker.ico"
-#define MyAppFileVersion "1.2.15.0"
+#define MyAppFileVersion "1.2.16.10"
 
 [Setup]
 AppId={{Cell_Marker.com.yahoo@Avar_Payam}
@@ -21,7 +21,7 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\Avarwand\{#MyAppName}
 DefaultGroupName={#MyAppName}
 UninstallDisplayIcon={app}\icons\{#MyAppIconName}
-OutputDir="C:\temp"
+OutputDir="D:\Payam Avarwand\My Repos\GitHub\Avarwand\Cell Marker\installer"
 OutputBaseFilename={#MyAppName}-{#MyAppVersion}-Setup
 SetupIconFile={#MyAppIcon}
 SolidCompression=yes
