@@ -39,4 +39,4 @@ To install the tool, download the latest `.exe` installer from the [Releases](ht
 
 
 
-_Payam Avarwand	,	12.05.2025_
+_Payam Avarwand,	12.05.2025_
