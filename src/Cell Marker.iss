@@ -2,11 +2,11 @@
 #define MyAppVersion "1.2"
 #define MyAppPublisher "Avarwand"
 #define MyAppURL "https://github.com/payam-avarwand/Cell-Marker/releases/tag/Cell-Marker"
-#define MyAppExeName "Cell Marker 1.2 Portable.exe"
+#define MyAppExeName "0.exe"
 #define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Word-Books\Code\Cell Marker\Cell Marker.ico"
 #define MyVbsLauncher "Cell Marker_Launcher.vbs"
 #define MyAppIconName "Cell Marker.ico"
-#define MyAppFileVersion "1.2.16.10"
+#define MyAppFileVersion "1.2.17.2"
 
 [Setup]
 AppId={{Cell_Marker.com.yahoo@Avar_Payam}
@@ -39,7 +39,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Cell Marker\installer\Cell Marker 1.2 Portable.exe"; DestDir: "{app}\icons"; Flags: ignoreversion
+Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Cell Marker\installer\0.exe"; DestDir: "{app}\icons"; Flags: ignoreversion
 Source: "{#MyAppIcon}"; DestDir: "{app}\icons"; Flags: ignoreversion
 
 [Icons]
